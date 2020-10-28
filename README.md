@@ -7,7 +7,7 @@ Server API's for authorizing user and sending emails directly using API's.
 
 # Installation
 - Download and extract Zip file.
-- Change directory to extracted folder.
+- Change directory to downloaded folder.
 ```
 cd GmailAPI-NodeJS-ExpressJS-master
 ```
