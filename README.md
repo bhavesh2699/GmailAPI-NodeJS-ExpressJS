@@ -1,2 +1,37 @@
 # GmailAPI-NodeJS-ExpressJS
 Server API's for authorizing user and sending emails directly using API's.
+
+# Requiremnt
+- Latest version of Node and NPM.
+- Postman for API testing.
+
+# Installation
+- Download and extract Zip file.
+- Change directory to extracted folder.
+```
+cd GmailAPI-NodeJS-ExpressJS
+```
+```
+npm install
+```
+```
+npm start
+```
+# Test API Endpoints
+- Open Postman and send GET request.
+```
+GET http://localhost:5000/
+```
+-  After succesfull authorization now its time to send email.
+-  For that send POST request with body
+```
+Request Type: x-www-form-urlencoded
+Request Body:
+{
+  to: Sender's Email ID,
+  message: Message to be sent in body,
+  subject: Email subject text
+}
+
+Post http://localhost:5000/send
+```
