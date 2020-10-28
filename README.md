@@ -20,11 +20,15 @@ npm start
 # Test API Endpoints
 - Open Postman and send GET request.
 ```
+API for Authorization
+
 GET http://localhost:5000/
 ```
 -  After succesfull authorization now its time to send email.
 -  For that send POST request with body
 ```
+API for Sending mail
+
 Request Type: x-www-form-urlencoded
 Request Body:
 {
