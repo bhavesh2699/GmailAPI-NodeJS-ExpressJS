@@ -35,3 +35,8 @@ Request Body:
 
 Post http://localhost:5000/send
 ```
+# Screen Shots
+![](Screenshot/1.PNG)
+![](Screenshot/2.PNG)
+![](Screenshot/3.PNG)
+
